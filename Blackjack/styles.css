@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+  background-color: rgb(27, 120, 27);
+  font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  color: rgb(255, 255, 63);
+  text-align: center;
+  margin-top: 36px;
+  border: 5px solid;
+  border-radius: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+img {
+  width: 200px;
+}
+
+h2 {
+  padding-right: 15px;
+  color: rgb(255, 255, 63);
+}
+
+p {
+  color: rgb(255, 255, 63);
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 2rem;
+  color: rgb(255, 255, 63);
+}
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+}
+.deal-card,
+.hold,
+.play-again {
+  height: 45px;
+  width: 100px;
+  margin: 30px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 63);
+  border: none;
+}
+
+.deal-card:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+  background-color: rgb(23, 255, 6);
+  cursor: pointer;
+}
+
+.hold:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+  background-color: rgb(255, 6, 6);
+  cursor: pointer;
+}
+
+.play-again:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+  background-color: rgb(6, 193, 255);
+  cursor: pointer;
+}
+
+.p-score,
+.c-score {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+.card-field {
+  display: flex;
+  justify-content: space-between;
+}
+
+.playerCard1 {
+  margin-left: 40px;
+  z-index: 1;
+}
+
+.playerCard2 {
+  position: absolute;
+  z-index: 2;
+  left: 90px;
+}
+
+.playerCard3 {
+  position: absolute;
+  z-index: 3;
+  left: 130px;
+}
+
+.playerCard4 {
+  position: absolute;
+  z-index: 4;
+  left: 170px;
+}
+
+.playerCard5 {
+  position: absolute;
+  z-index: 5;
+  left: 210px;
+}
+
+.playerCard6 {
+  position: absolute;
+  z-index: 6;
+  left: 250px;
+}
+
+.playerCard7 {
+  position: absolute;
+  z-index: 7;
+  left: 290px;
+}
+
+.playerCard8 {
+  position: absolute;
+  z-index: 8;
+  left: 330px;
+}
+
+.playerCard9 {
+  position: absolute;
+  z-index: 9;
+  left: 370px;
+}
+
+.comCard1 {
+  margin-right: 25px;
+  z-index: 11;
+}
+
+.comCard2 {
+  z-index: 2;
+  position: absolute;
+  right: 90px;
+}
+
+.comCard3 {
+  z-index: 3;
+  position: absolute;
+  right: 130px;
+}
+.comCard4 {
+  z-index: 4;
+  position: absolute;
+  right: 170px;
+}
+.comCard5 {
+  z-index: 5;
+  position: absolute;
+  right: 210px;
+}
+.comCard6 {
+  z-index: 6;
+  position: absolute;
+  right: 250px;
+}
+.comCard7 {
+  z-index: 7;
+  position: absolute;
+  right: 290px;
+}
+.comCard8 {
+  z-index: 8;
+  position: absolute;
+  right: 330px;
+}
